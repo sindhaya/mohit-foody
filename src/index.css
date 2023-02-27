@@ -1,0 +1,88 @@
+.main{
+  background-image: url("https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+}
+.row{
+  display: flex;
+  background-color: rgb(235, 124, 124);
+  border-radius: 15px;
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.active{
+  font-weight: bold;
+  border-bottom: 1px solid violet;
+}
+.navbar a:hover{
+  color: aqua !important;
+}
+
+/* Landing section  */
+
+#header{
+  width: 100%;
+  height: 70vh;
+  margin-top: 70px;
+}
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 45px;
+  font-weight: 700;
+  color: brown;
+}
+#header .brand-name{
+  color: blueviolet;
+}
+#header h2{
+  color: burlywood;
+  font-size: 24px;
+}
+#header .navbar-brand{
+background-color: blue; 
+}
+#header .btn-get-started{
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 40px;
+  transition: 0.5ms;
+  color: aquamarine;
+  border: 2px solid red;
+  text-decoration: none;
+}
+#header .btn-get-started:hover{
+  background: aqua;
+  color: black;
+}
+#header-img{
+  text-align: right;
+}
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0%{
+    transform:translateY(10px);
+}
+100%{
+  transform: translateY(-10px);
+
+}
+}
+
+@keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  
+}
+100%{
+  transform: translateY(-10px);
+
+}
+}
+
